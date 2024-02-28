@@ -1,0 +1,81 @@
+1. Create a class named Rectangle. Use a loop to print the following shape on the console:
+
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+
+
+2. Create a class named EnglishAlphabets, and write a program that displays alphabet letters from A to Z in the
+same line separated by a space.
+
+
+3. Create a class named EnglishAlphabetsBackward, and write a program that can display the alphabet letters from Z to A in
+the same line separated by a space.
+
+
+4. Create a class named SumOfNumbers and write a program to calculate the sum of all numbers between 1 and any given number.
+
+				Example 1:
+					   number = 100
+
+				Output:
+					  5050
+
+
+				Example 2:
+					    number = 50
+
+				Output:
+					  1275
+
+
+5. Create a class named FactorialNumber. Write a program that can return the factorial number of any given number.
+
+				Example:
+					  num = 5
+
+				Output:
+					  120
+
+			(because: 5! = 5 * 4 * 3 * 2* 1 = 120 )
+
+
+6. Create a class named FINRA. and write a program that prints the numbers from 1 to 100.
+For numbers that are multiples of both 3 and 5, print "FINRA" instead of the number.
+For numbers that are multiples of 3, print "FIN" instead of the number,
+and for numbers that are multiples of 5, print "RA" instead of the number.
+
+				Example:
+					1 2 FIN 4 RA FIN 7 8 FIN RA 11 FIN 13 14 FINRA 16 17 FIN...
+
+
+7. Create a class named Triangle and use a nested loop to display the following shape on the console:
+
+				*
+				* *
+				* * *
+				* * * *
+				* * * * *
+				* * * * * *
+				* * * * * * *
+				* * * * * * * *
+				* * * * * * * * *
+				* * * * * * * * * *
+
+
+8. Create a class named Alphabets and use a nested loop to print the following output:
+
+		Aa Ab Ac Ad Ae Af Ag Ah Ai Aj Ak Al Am An Ao Ap Aq Ar As At Au Av Aw Ax Ay Az
+		Ba Bb Bc Bd Be Bf Bg Bh Bi Bj Bk Bl Bm Bn Bo Bp Bq Br Bs Bt Bu Bv Bw Bx By Bz
+		Ca Cb Cc Cd Ce Cf Cg Ch Ci Cj Ck Cl Cm Cn Co Cp Cq Cr Cs Ct Cu Cv Cw Cx Cy Cz
+		Da Db Dc Dd De Df Dg Dh Di Dj Dk Dl Dm Dn Do Dp Dq Dr Ds Dt Du Dv Dw Dx Dy Dz
+		Ea Eb Ec Ed Ee Ef Eg Eh Ei Ej Ek El Em En Eo Ep Eq Er Es Et Eu Ev Ew Ex Ey Ez
+
+
+

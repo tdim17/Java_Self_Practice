@@ -1,0 +1,187 @@
+CUSTOM CLASS TASKS:
+1. Create a class named Employee with the following attributes and actions:
+
+      Attributes:
+            name (String): used for storing the name of the employee
+            age (int): used for storing the age of the employee
+            gender (char): used for storing the gender of the employee
+            jobTitle (String): used for storing the job title of the employee
+            salary (double): used for storing the job title
+
+      Actions:
+            work(): plays the job title and name of the employee concatenated with " is working."
+
+            toString(): returns a string representation of the employee object.
+
+      Create another class named EmployeeClients, create multiple employee objects,
+      and test each function of the employee object.
+
+
+2. Create a custom class named Rectangle with the following attributes and actions:
+
+      Attributes:
+            width (double): used for storing the width of the rectangle.
+            length (double): used for storing the length of the rectangle.
+
+      Actions:
+            calculateArea(): calculates the area of the rectangle, and returns it as a double.
+            calculatePerimeter(): calculates the perimeter of the rectangle, and returns it.
+            toString(): returns a string representation of the rectangle object.
+
+
+      Create another class named RectangleClients, create multiple rectangle objects,
+      and test each function of the rectangle object.
+
+
+3. Create a custom class named Item with the following attributes and actions:
+
+      Attributes:
+            itemName (String): used for storing the name of the item.
+            unitPrice (double): used for storing the unit price of the item.
+            quantity (int): used for storing the quantity of the item.
+
+      Actions:
+            calcCost(): calculates the total cost of the item.
+            toString(): returns a string representation of the Item object with the full information of the item,
+            including the total cost calculated by calcCost.
+
+
+      Create another class named ItemClients, create multiple item objects,
+      and test each function of the item object.
+
+
+4. Create a custom class named Address with the following attributes and actions:
+
+      Attributes:
+            buildingNumber (int): used to store the building number of the address.
+            street (String): used to store the street of the address.
+            city (String): used to store the city of the address.
+            state (String): used to store the state abbreviations of the address.
+            zipCode (String): used to store the zip code of the address.
+
+      Actions:
+            toString(): returns the string representation of the address object in the following format:
+
+                  Example:
+                      buildingNumber = 7925;
+                      street = "Jones Branch Dr";
+                      city = "McLean";
+                      state = "VA";
+                       zipCode = 22012;
+
+                  Output:
+                        7925 Jones Branch Dr
+                        McLean Va, 22012
+
+
+      Create another class named AddressClients, create multiple address objects, and test each function of the address object.
+
+
+
+
+
+SCANNERS TASKS:
+5. Create a class named FamilyMembers and write a program that asks the user how many people they live with.
+
+    If the user lives with fewer than three people, print "Live with less than three people."
+    If the user lives with 3 - 6 people, print "Live with 3 - 6 people."
+    If the user lives with more than six people, print "Live with more than six people."
+
+        Example:
+             How many people do you live with?
+             Input: 3
+
+        Output:
+             Live with 3 - 6 people.
+
+
+6. Create a class named Circle and write a program that asks the user to enter the radius of the Circle and calculate
+the area and perimeter of the Circle.
+
+        Example:
+             Enter the radius:
+             Input: 5
+
+        Output:
+             The area of the Circle is 78.5
+             The perimeter of the Circle is 31.4
+
+
+7. Create a class named GradeReport and write a program asking the user to enter their score and print the student's grade.
+
+  If the user enters an invalid score (negative or more than 100), print "Invalid Score."
+
+        Example:
+             Enter your score:
+             Input: 85
+
+        Output:
+             Your grade is B
+
+
+8. Create a class named CentsToDollars and write a program that asks the user to enter the number of cents and
+convert the given cents to dollars. Include any remainder in the result.
+
+        Example:
+             Enter the cents:
+             Input: 225
+
+        Output:
+             225 cents is equal to 2 dollars and 25 cents
+
+
+9. Create a class named MilesToKM and write a program that asks the user to enter the number of miles and 
+convert it to kilometers.
+
+        Example:
+             Enter the miles:
+             Input: 10.0
+
+        Output:
+             10.0 miles is equal to 16.09 kilometers
+
+
+
+10. Create a class named PlaceAnOrder:
+
+    Ask the user to enter the product name (multiple words).
+    Ask the user to enter the price (double).
+    Ask the user to enter the quantity (int).
+    Ask the user to enter their first name (String, single word).
+
+    Print in the following format:
+
+        Example:
+             Inputs: "Apples", 1.5, 5, "Luke"
+
+        Output:
+             Luke, your order for 5 Apples has been placed. Your total is 7.5.
+
+
+
+11. Create a class called MyInfo and ask the user to:
+
+      Enter your age (int)
+      Enter your gender (String - One word ONLY)
+      Enter your full name (String - Multiple words)
+      Enter your phone number (long)
+      Enter your zip code (int)
+      Enter your School name (String - Can be Multiple words)
+      Enter your city name (String - Can be Multiple words)
+      Enter your state name (String - One word ONLY)
+      Enter your building number (int)
+      Enter your Street name
+
+    Display all the inputs that the user entered in the following order in separate lines:
+
+        Full name
+        Age
+        Gender
+        Phone number
+        Address:
+             buildingNumber Street
+             City, state zipCode
+
+
+
+

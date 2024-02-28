@@ -1,0 +1,152 @@
+1. Create a class named OddAndEven:
+
+	1.1 Create a method named isOdd that returns true if a number is odd. Otherwise, it returns false.
+
+		Example:
+			boolean result = isOdd(100);
+		Output:
+			false
+
+	1.2 Create a method named isEven that returns true if a number is even. Otherwise, it returns false.
+
+		Example:
+			boolean result = isEven(100);
+		Output:
+			true
+
+
+2. Create a class named SalaryCalculator and create a method named salary that takes hourly rate (double) 
+and weekly hours (int) and returns the salary.
+
+			Example:
+				double income = salary(45, 40);
+
+			Output:
+				93600.0
+
+
+3. Create a class named MaximumAndMinimum:
+
+	2.1 Create a method named max that returns the maximum number between two integer numbers.
+
+	2.2 Create a method named max that returns the maximum number between two double numbers.
+
+	2.3 Create a method named min that returns the minimum number between two integer numbers.
+
+	2.4 Create a method named min that returns the minimum number between two double numbers.
+
+
+			Example1:
+				double n = max(10.5, 30.2);
+
+			Output:
+				30.2
+
+			Example2:
+				int m = min(100, 200);
+
+			Output:
+				100
+
+
+4. Create a class named DayAndMonth:
+
+	3.1 Create a method named day that displays the day's name based on the given number. 
+	If the number is invalid, print "Invalid Number".
+
+			Example:
+				day(5);
+
+			Output:
+				Friday
+
+	3.2 Create a method named monthName that displays the month's name based on the given number. 
+	If the number is invalid, print "Invalid Number."
+
+
+			Example:
+				monthName(6);
+
+			Output:
+				June
+
+	3.3 Create a method named daysInMonth that displays the number of days in the month based on the given number.
+	If the number is invalid, print "Invalid Number."
+
+				Example:
+					daysInMonth(6);
+
+				Output:
+					June has 30 days
+
+
+
+5. Create a class named MathUtility:
+
+	5.1 Create a method named calculate that takes three arguments (Two integers and a char) and returns the result based on the operator.
+
+		If the operator is +:
+			The method should return the addition of the two numbers
+
+		If the operator is -:
+			The method should return the subtraction of the two numbers
+
+		If the operator is *:
+			The method should return the multiplication of the two numbers
+
+		If the operator is /:
+			The method should return the multiplication of the two numbers
+
+	for any other operators, the method should return 0
+
+
+			Example:
+				int result = calculate(10, '+', 20);
+
+			Output:
+				30
+
+
+	5.2 Overload the calculate method to handle double numbers.
+
+			Example:
+				double result = calculate(2.5, '*', 3.0);
+
+			Output:
+				7.5
+
+
+	5.3 Create a method named square that takes an int and returns the square, hierarchically calling the 
+	calculate method to calculate the square.
+
+			Example:
+				int num = square(8);
+
+			Output:
+				64
+
+	5.4 Overload the square method for double numbers.
+
+			Example:
+				double num = square(1.5);
+
+			Output:
+				2.25
+
+	5.5 Create a method named cube that takes an int and returns the cube, hierarchically calling the 
+	square method to calculate the cube.
+
+			Example:
+				int num = cube(3);
+
+			Output:
+				9
+
+	5.6 Overload the cube method for double numbers.
+
+			Example:
+				double num = cube(2.5);
+
+			Output:
+				15.625
+
