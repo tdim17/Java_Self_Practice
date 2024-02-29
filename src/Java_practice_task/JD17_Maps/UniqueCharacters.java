@@ -1,7 +1,5 @@
 package Java_practice_task.JD17_Maps;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 

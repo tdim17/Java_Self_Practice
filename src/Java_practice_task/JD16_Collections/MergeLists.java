@@ -1,7 +1,6 @@
 package Java_practice_task.JD16_Collections;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 

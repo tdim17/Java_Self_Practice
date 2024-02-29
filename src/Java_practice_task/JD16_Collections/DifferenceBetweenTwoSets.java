@@ -2,8 +2,6 @@ package Java_practice_task.JD16_Collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedHashSet;
-import java.util.Set;
 
 public class DifferenceBetweenTwoSets {
 

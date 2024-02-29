@@ -1,6 +1,5 @@
 package Java_practice_task.JD17_Maps;
 
-import java.nio.charset.CharsetEncoder;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
