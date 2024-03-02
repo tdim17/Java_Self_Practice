@@ -3,7 +3,7 @@ package Java_practice_task.JD11_CustomClass.restaurant;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Restaurant {
+public class Restaurant_crazy_hasToBeDone {
 
     public String owner;
     public String location;
@@ -12,7 +12,7 @@ public class Restaurant {
     public ArrayList<Chef> chefs;
 
 
-    public Restaurant(String owner, String location, int numberOfStars) {
+    public Restaurant_crazy_hasToBeDone(String owner, String location, int numberOfStars) {
         this.owner = owner;
         this.location = location;
         this.numberOfStars = numberOfStars;
@@ -35,7 +35,7 @@ public class Restaurant {
 
 
 /*
-Create a custom class named Restaurant with the following specifications:
+Create a custom class named Restaurant_crazy_hasToBeDone with the following specifications:
 
 	Attributes:
 			Owner (String)
@@ -53,11 +53,11 @@ Create a custom class named Restaurant with the following specifications:
 		hireChef(Chef[] chefs): adds an array of Chef objects to the Chefs ArrayList
 		terminateChef(int employeeID): removes the chef with the matching ID from the Chefs ArrayList
 		terminateServer(int employeeID): removes the server with the matching ID from the Servers ArrayList
-		toString(): returns a string representation of the Restaurant object, including the number of Servers and Chefs alongside other information
+		toString(): returns a string representation of the Restaurant_crazy_hasToBeDone object, including the number of Servers and Chefs alongside other information
 
 Create a class named LocalRestaurant with a main method:
-	Create a Restaurant object
+	Create a Restaurant_crazy_hasToBeDone object
 	Create an array of servers and chefs with their information set
-	Add the initial servers and chefs to the respective ArrayLists in the Restaurant object
+	Add the initial servers and chefs to the respective ArrayLists in the Restaurant_crazy_hasToBeDone object
 	Print the whole restaurant's information
  */

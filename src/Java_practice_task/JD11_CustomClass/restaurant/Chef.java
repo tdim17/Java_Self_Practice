@@ -34,7 +34,7 @@ public class Chef {
 }
 
 /*
-Restaurant Task (EXTRA SPICY)
+Restaurant_crazy_hasToBeDone Task (EXTRA SPICY)
 Create a custom class named Chef with the following specifications:
 
 Attributes:
