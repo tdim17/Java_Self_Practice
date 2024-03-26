@@ -14,9 +14,5 @@ public class SumOfNumbers {
         }
 
         System.out.println("Summ = " + sum);
-
-
-
-
     }
 }
