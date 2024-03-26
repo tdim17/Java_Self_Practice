@@ -10,9 +10,10 @@ public class SumOfNumbers {
 
         for (int i = 1; i <= number ; i++) {
             sum += i;
+            System.out.println("Each step = " + sum);
         }
 
-        System.out.println(sum);
+        System.out.println("Summ = " + sum);
 
 
 
